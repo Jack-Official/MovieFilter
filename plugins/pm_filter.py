@@ -1396,7 +1396,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>👻ʜᴇʏ {message.from_user.mention},ʏᴏᴜʀ sᴇᴀʀᴄʜ ʀᴇsᴜʟᴛ ɪs ʀᴇᴀᴅʏ.👇\n\n💬 ᴛɪᴛʟᴇ : {search}\n🗃️ ᴛᴏᴛᴀʟ ғɪʟᴇs : {str(total_results)}\n🎙 ᴀᴜᴅɪᴏ : ᴍᴜʟᴛɪ\n\n🪁 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : {message.chat.title}</b>"
+        cap = f"<b>😻 𝗛𝗲𝘆 :-: {message.from_user.mention},\n\n🍿 𝗠𝗼𝘃𝗶𝗲 𝗡𝗮𝗺𝗲 :-: {search}\n🗂 𝗧𝗼𝘁𝗮𝗹 𝗙𝗶𝗹𝗲𝘀 :-: {str(total_results)}\n\n🍃 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 :-:{message.chat.title}</b>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
@@ -1492,7 +1492,7 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
             **locals()
         )
     else:
-        cap = f"<b>😻ʜᴇʏ :-: {message.from_user.mention},\n\n🍿 ᴛɪᴛʟᴇ :-: {search}\n🗃️ ᴛᴏᴛᴀʟ ғɪʟᴇs :-: {str(total_results)}\n🎙 ᴀᴜᴅɪᴏ :-: ᴍᴜʟᴛɪ\n\n🪁 ᴘᴏᴡᴇʀᴇᴅ ʙʏ :-: {message.chat.title}</b>"
+        cap = f"<b>😻 𝗛𝗲𝘆 :-: {message.from_user.mention},\n\n🍿 𝗠𝗼𝘃𝗶𝗲 𝗡𝗮𝗺𝗲 :-: {search}\n🗂 𝗧𝗼𝘁𝗮𝗹 𝗙𝗶𝗹𝗲𝘀 :-: {str(total_results)}\n\n🍃 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 :-:{message.chat.title}</b>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
