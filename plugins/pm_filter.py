@@ -232,7 +232,7 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton(f"ᴄʜᴇᴄᴋ ʙᴏᴛ ᴘᴍ", url="https://t.me/Elizabeth_Movie_Bot"),
+            InlineKeyboardButton(f"❓️𝗛𝗼𝘄 𝗧𝗼 𝗨𝘀𝗲", url="https://t.me/Elizabeth_Movie_Bot"),
             InlineKeyboardButton(f"🗂𝗧𝗼𝘁𝗮𝗹 𝗙𝗶𝗹𝗲𝘀: {len(btn)}", callback_data="files")
         ]
     )    
@@ -1343,7 +1343,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
     btn.insert(0,
         [ 
-            InlineKeyboardButton(f"ᴄʜᴇᴄᴋ ʙᴏᴛ ᴘ", url="https://t.me/Elizabeth_Movie_Bot"),
+            InlineKeyboardButton(f"❓️𝗛𝗼𝘄 𝗧𝗼 𝗨𝘀𝗲", url="https://t.me/Elizabeth_Movie_Bot"),
             InlineKeyboardButton(f"🗂𝗧𝗼𝘁𝗮𝗹 𝗙𝗶𝗹𝗲𝘀: {len(btn)}", callback_data="files")
         ]
     )
