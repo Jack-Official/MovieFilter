@@ -233,7 +233,7 @@ async def next_page(bot, query):
     btn.insert(0, 
         [
             InlineKeyboardButton(f"ᴄʜᴇᴄᴋ ʙᴏᴛ ᴘᴍ", url="https://t.me/Elizabeth_Movie_Bot"),
-            InlineKeyboardButton(f"ᴛᴏᴛᴀʟ ғɪʟᴇs: {len(btn)}", callback_data="files")
+            InlineKeyboardButton(f"🗂𝗧𝗼𝘁𝗮𝗹 𝗙𝗶𝗹𝗲𝘀: {len(btn)}", callback_data="files")
         ]
     )    
 
@@ -1343,8 +1343,8 @@ async def auto_filter(client, msg, spoll=False):
         ]
     btn.insert(0,
         [ 
-            InlineKeyboardButton(f"ᴄʜᴇᴄᴋ ʙᴏᴛ ᴘᴍ", url="https://t.me/Elizabeth_Movie_Bot"),
-            InlineKeyboardButton(f"ᴛᴏᴛᴀʟ ғɪʟᴇs: {len(btn)}", callback_data="files")
+            InlineKeyboardButton(f"ᴄʜᴇᴄᴋ ʙᴏᴛ ᴘ", url="https://t.me/Elizabeth_Movie_Bot"),
+            InlineKeyboardButton(f"🗂𝗧𝗼𝘁𝗮𝗹 𝗙𝗶𝗹𝗲𝘀: {len(btn)}", callback_data="files")
         ]
     )
     if offset != "":
@@ -1357,7 +1357,7 @@ async def auto_filter(client, msg, spoll=False):
         )
     else:
         btn.append(
-            [InlineKeyboardButton(text="📄 1/1", callback_data="pages")]
+            [InlineKeyboardButton(text="📄 !!𝗡𝗼 𝗠𝗼𝗿𝗲 𝗡𝗲𝘅𝘁 𝗣𝗮𝗴𝗲!! 📄", callback_data="pages")]
         )   
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
@@ -1453,7 +1453,7 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
         )
     else:
         btn.append(
-            [InlineKeyboardButton(text="📄 No More Next Button 📄", callback_data="pages")]
+            [InlineKeyboardButton(text="📄 !!𝗡𝗼 𝗠𝗼𝗿𝗲 𝗡𝗲𝘅𝘁 𝗣𝗮𝗴𝗲!! 📄", callback_data="pages")]
         )
     imdb = await get_poster(search) if IMDB else None
     TEMPLATE = IMDB_TEMPLATE
