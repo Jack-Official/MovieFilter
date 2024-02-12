@@ -644,24 +644,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help2":
         buttons = [[
-            InlineKeyboardButton('❔ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ❔', callback_data='howtoues')
+            InlineKeyboardButton('𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗉𝗁​', callback_data='tele'),
+            InlineKeyboardButton('𝖥𝗂𝗅𝖾 𝖲𝗍𝗈𝖾𝗋​​​', callback_data='newdata')         
             ],[
-            InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ​', callback_data='tele'),
-            InlineKeyboardButton('ꜰɪʟᴇ sᴛᴏʀᴇ​​​', callback_data='newdata')         
+            InlineKeyboardButton('𝖢𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗈𝗇𝗌', callback_data='coct'),
+            InlineKeyboardButton('𝖥𝗂𝗅𝗍𝖾𝗋𝗌', callback_data='filters'),
+            InlineKeyboardButton('𝖤𝗑𝗍𝗋𝖺-𝖬𝗈𝖽𝗌', callback_data='extra')   
             ],[
-            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴs', callback_data='coct'),
-            InlineKeyboardButton('ғɪʟᴛᴇʀs', callback_data='filters'),
-            InlineKeyboardButton('ᴇxᴛʀᴀ-ᴍᴏᴅs', callback_data='extra')   
+            InlineKeyboardButton('𝖲𝗁𝖺𝗋𝖾 𝖳𝖾𝗑𝗍​', callback_data='sharetxt'),
+            InlineKeyboardButton('𝖴𝗋𝗅 𝖲𝗁𝗈𝗋𝗍', callback_data='urlshort')
             ],[
-            InlineKeyboardButton('sʜᴀʀᴇ ᴛᴇxᴛ​', callback_data='sharetxt'),
-            InlineKeyboardButton('ᴜʀʟ sʜᴏʀᴛ', callback_data='urlshort')
+            InlineKeyboardButton('𝖩𝗌𝗈𝗇𝖾', callback_data='son'),
+            InlineKeyboardButton('𝖲𝗍𝗂𝖼𝗄𝖾𝗋-𝖨𝖣', callback_data='sticker'),
+            InlineKeyboardButton('𝖲𝗍𝖺𝗍𝗎𝗌', callback_data='stats')
             ],[
-            InlineKeyboardButton('ᴊsᴏɴᴇ', callback_data='son'),
-            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ-ɪᴅ', callback_data='sticker'),
-            InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats')
-            ],[
-            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'), 
-            InlineKeyboardButton('ɴᴇxᴛ »', callback_data='help')  
+            InlineKeyboardButton('🏘 𝖧𝗈𝗆𝖾', callback_data='start'), 
+            InlineKeyboardButton('𝖭𝖾𝗑𝗍 ➡️', callback_data='help')  
          ]] 
         reply_markup = InlineKeyboardMarkup(buttons)             
         await query.message.edit_text(                     
