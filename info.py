@@ -47,7 +47,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #maximum search result buttos count in number#
 MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "6"))
-START_MESSAGE = environ.get('START_MESSAGE', '<b><u>😻𝗛𝗲𝗹𝗹𝗼, {user}</u>\n\n𝗜'𝗺 𝗔 𝗠𝗼𝘃𝗶𝗲𝘀 𝗦𝗲𝗮𝗿𝗰𝗵 𝗕𝗼𝘁, 𝗜𝗖𝗮𝗻 𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝗠𝗼𝘃𝗶𝗲𝘀 𝗔𝗻𝗱 𝗪𝗘𝗕-𝗦𝗲𝗿𝗶𝗲𝘀, 𝗝𝘂𝘀𝘁 𝗔𝗱𝗱 𝗠𝗲 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽𝘀 𝗔𝗻𝗱 𝗘𝗮𝗷𝗼𝘆..!</b>')
+START_MESSAGE = environ.get('START_MESSAGE', '<b><u>😻𝗛𝗲𝗹𝗹𝗼 {user},</u>\n\n𝗜'𝗺 𝗔 𝗠𝗼𝘃𝗶𝗲𝘀 𝗦𝗲𝗮𝗿𝗰𝗵 𝗕𝗼𝘁, 𝗜𝗖𝗮𝗻 𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝗠𝗼𝘃𝗶𝗲𝘀 𝗔𝗻𝗱 𝗪𝗘𝗕-𝗦𝗲𝗿𝗶𝗲𝘀, 𝗝𝘂𝘀𝘁 𝗔𝗱𝗱 𝗠𝗲 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽𝘀 𝗔𝗻𝗱 𝗘𝗮𝗷𝗼𝘆..!</b>')
 BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "👋𝗛𝗲𝗹𝗹𝗼 {query}!𝗧𝗵𝗮𝘁'𝘀 𝗡𝗼𝘁  𝗙𝗼𝗿  𝗬𝗼𝘂. 𝗣𝗹𝗲𝗮𝘀𝗲 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗬𝗼𝘂𝗿 𝗠𝗼𝘃𝗶𝗲..!!")
 FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', '<b><u>⚠️ ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡɪɴɢ ᴛʜᴇ ʀᴜʟᴇs ⚠️</u>\n\nғɪʀsᴛ ᴄʟɪᴄᴋ ᴏɴ "🚸 ᴊᴏɪɴ ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ 🚸" ʙᴜᴛᴛᴏɴ. ᴛʜᴇɴ ᴄᴏᴍᴇ ʙᴀᴄᴋ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴀɴᴅ ᴄʟɪᴄᴋ ᴏɴ "🔄 ᴛʀʏ ᴀɢᴀɪɴ 🔄" ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ғɪʟᴇs..!!</b>')
 WELCOM_PIC = environ.get("WELCOM_PIC", "https://telegra.ph/file/376d52c7273bb6451dac6.mp4")
