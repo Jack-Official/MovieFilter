@@ -627,13 +627,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('sᴇᴀʀᴄʜ 🔍 ', callback_data='help2'),
-            InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', callback_data='help2')  
+            InlineKeyboardButton('Owner', callback_data='suneesh'),
+            InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', callback_data='support')  
         ], [
             InlineKeyboardButton('🗄 ʜᴇʟᴘ', callback_data='help2'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ 🛡', callback_data='about')
         ], [
-            InlineKeyboardButton('🔗 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋs 🔗', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔎 𝗜𝗻𝗹𝗶𝗻𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗙𝗶𝗹𝗲𝘀 🔍', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -943,13 +943,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "howtoues":
+    elif query.data == "support":
         buttons = [[
             InlineKeyboardButton('« ʙᴀᴄᴋ »', callback_data='help2')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.HOWTOUES_TXT,
+            text=script.SUPPORT_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
