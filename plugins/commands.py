@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [[ 
             InlineKeyboardButton('⇄ 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 ⇄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('📢 ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs', url='https://t.me/cinema_flix_updates'),
+            InlineKeyboardButton('📢 𝗨𝗽𝗱𝗮𝘁𝗲𝘀', url='https://t.me/cinema_flix_updates'),
             InlineKeyboardButton('𝗚𝗿𝗼𝘂𝗽 🍿', url='https://t.me/+iEbhY7mM4oE1OTVl')
             ]]
         await message.reply(START_MESSAGE.format(user=message.from_user.mention if message.from_user else message.chat.title, bot=temp.B_LINK), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)                    
