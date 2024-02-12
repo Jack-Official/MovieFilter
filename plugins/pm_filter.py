@@ -677,7 +677,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝖥𝗈𝗇𝗍​', callback_data='fond'),
             ],[
             InlineKeyboardButton('𝖬𝗎𝗍𝖾', callback_data='restric'),
-            InlineKeyboardButton('𝖣𝖾𝗉𝗅𝗈𝗒', callback_data='suneesh'),
+            InlineKeyboardButton('𝖣𝖾𝗉𝗅𝗈𝗒', callback_data='support'),
             InlineKeyboardButton('𝖯𝗂𝗇', callback_data='pin')
             ],[
             InlineKeyboardButton('⬅️ 𝖡𝖺𝖼𝗄 ', callback_data='help2'),
@@ -931,10 +931,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "suneesh":
         buttons = [[
-            InlineKeyboardButton('㊂ ᴅᴇᴠ ❶', url='https://t.me/TG_x_filter'),
-            InlineKeyboardButton('㊂ ᴅᴇᴠ ❷', url='https://t.me/dxfilter')
-            ],[
-            InlineKeyboardButton('« ʙᴀᴄᴋ »', callback_data='help2')
+            InlineKeyboardButton('« ʙᴀᴄᴋ »', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -944,7 +941,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "support":
         buttons = [[
-            InlineKeyboardButton('« ʙᴀᴄᴋ »', callback_data='help2')
+            InlineKeyboardButton('㊂ ᴅᴇᴠ ❶', url='https://t.me/TG_x_filter'),
+            InlineKeyboardButton('㊂ ᴅᴇᴠ ❷', url='https://t.me/dxfilter')
+            ],[
+            InlineKeyboardButton('« ʙᴀᴄᴋ »', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
