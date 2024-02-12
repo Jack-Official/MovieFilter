@@ -11,11 +11,7 @@ class script(object):
 
 🔹𝗕𝗼𝘁 𝗦𝗲𝗿𝘃𝗲𝗿 :-: <a href=https://Railway.con/>𝗥𝗮𝗶𝗹𝘄𝗮𝘆</b></a>"""
 
-    SOURCE_TXT = """<b>📍ɪғ ʏᴏᴜ ᴜsᴇ ɪɴ ᴛʜᴇ ʀᴇᴘᴏ ᴀɴᴅ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ's..!!
-
-<u>ᴅᴇᴠs :</u>
-㊂ ᴅᴇᴠ ❶| <a href=https://t.me/TG_x_filter>『sᴜɴᴇᴇsʜ࿐Tɢ』#Official™🇮🇳</a>
-㊂ ᴅᴇᴠ ❷| <a href=https://t.me/dxfilter>ꪶ‌ꪆ KD Tech [#Offline] 🇮🇳</b></a>"""
+    SOURCE_TXT = """<b>🍿𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝘀 𝗚𝗿𝗼𝘂𝗽𝘀 𝗢𝘁𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀👇</b>"""
 
 
     FILE_TXT = """𝗛𝗲𝗹𝗽 :-: 𝗙𝗶𝗹𝗲 𝗦𝘁𝗼𝗿𝗲 𝗠𝗼𝗱𝘂𝗹𝗲.../
