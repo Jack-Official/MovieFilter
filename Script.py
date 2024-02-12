@@ -1,11 +1,15 @@
 class script(object):   
     HELP_TXT = """<b>ʜᴇʏ,{} ʜᴇʀᴇ ɪs ᴍʏ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs.</b>"""
 
-    ABOUT_TXT = """<b>◎ɴᴀᴍᴇ: {}</b>
-<b>◎ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/TG_x_filter>『sᴜɴᴇᴇsʜ࿐Tɢ』#Official™🇮🇳</b></a>
-<b>◎ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 3</b>
-<b>◎ᴅᴀᴛᴀʙᴀsᴇ: ᴍᴏɴɢᴏ ᴅʙ</b>
-<b>◎ʙᴏᴛ sᴇʀᴠᴇʀ: <a href=https://t.me/copycod_Official>ᴀɴʏᴡʜᴇʀᴇ</b></a>"""
+    ABOUT_TXT = """<b>⚜️𝗡𝗮𝗺𝗲 :-: {}
+
+🔸𝗖𝗿𝗲𝗮𝘁𝗼𝗿 :-: <a href=https://t.me/dxtgfilter>𝗗𝗲𝗲𝘇𝘂𝘇𝘇𝗮</a>
+
+🔹𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 :-: 𝗣𝘆𝘁𝗵𝗼𝗻3
+
+🔸𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲 :-: 𝗠𝗼𝗻𝗴𝗼 𝗗𝗕
+
+🔹𝗕𝗼𝘁 𝗦𝗲𝗿𝘃𝗲𝗿 :-: <a href=https://Railway.con/>𝗥𝗮𝗶𝗹𝘄𝗮𝘆</b></a>"""
 
     SOURCE_TXT = """<b>📍ɪғ ʏᴏᴜ ᴜsᴇ ɪɴ ᴛʜᴇ ʀᴇᴘᴏ ᴀɴᴅ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ's..!!
 
@@ -345,7 +349,7 @@ By @{} """
 
     SUNEESH_TXT = """<b>•𝗡𝗮𝗺𝗲 :-: 𝗗𝗲𝗲𝘇𝘂𝘇𝘇𝗮
 •𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 :-: @dxtgfilter
-•𝗨𝘀𝗲𝗿 𝗟𝗶𝗻𝗸 :-:  <a href=https://t.me/dxtgfilter>𝗟𝗶𝗻𝗸</b>"""
+•𝗨𝘀𝗲𝗿 𝗟𝗶𝗻𝗸 :-:  <a href=https://t.me/dxtgfilter>𝗟𝗶𝗻𝗸</a></b>"""
     SUPPORT_TXT = """<b>join Our Channels and Groups..!!</b>"""
 
     FILTERS = """<b>ʜᴇʏ{}, ᴛʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs..!!</b>"""
