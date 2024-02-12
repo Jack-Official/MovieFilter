@@ -346,6 +346,6 @@ By @{} """
     SUNEESH_TXT = """<b>•𝗡𝗮𝗺𝗲 :-: 𝗗𝗲𝗲𝘇𝘂𝘇𝘇𝗮
 •𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 :-: @dxtgfilter
 •𝗨𝘀𝗲𝗿 𝗟𝗶𝗻𝗸 :-:  <a href=https://t.me/dxtgfilter>𝗟𝗶𝗻𝗸</a></b>"""
-    SUPPORT_TXT = """<b>join Our Channels and Groups..!!</b>"""
+    SUPPORT_TXT = """<b>𝗜𝘆 𝗬𝗼𝘂 𝗙𝗮𝗰𝗶𝗻𝗴 𝗔𝗻𝘆 𝗶𝘀𝘀𝘂𝗲 𝗶𝗻 𝗧𝗵𝗲 𝗥𝗲𝗽𝗼 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗠𝗲..!!</b>"""
 
     FILTERS = """<b>ʜᴇʏ{}, ᴛʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs..!!</b>"""
