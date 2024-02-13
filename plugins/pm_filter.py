@@ -1560,7 +1560,7 @@ async def pm_spoll_choker(msg):
     PM_SPELL_CHECK[msg.id] = movielist
     btn = [[InlineKeyboardButton(text=movie.strip(), callback_data=f"pmspolling#{user}#{k}")] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="ᴄʟᴏsᴇ ✗", callback_data=f'pmspolling#{user}#close_spellcheck')])
-    await msg.reply("<b>😻𝗛𝗲𝗹𝗹𝗼 {message.from_user.mention}𝗕𝗿𝗼 𝗦𝗽𝗲𝗹𝗹𝗶𝗻𝗴 𝗠𝗶𝘀𝘁𝗮𝗸𝗲\n\n𝗗𝗼𝗻'𝘁 𝗪𝗼𝗿𝗿𝘆 𝗖𝗵𝗼𝗼𝘀𝗲 𝗧𝗵𝗲 𝗖𝗼𝗿𝗿𝗲𝗰𝘁 𝗢𝗻𝗲 𝗕𝗲𝗹𝗼𝘄..!!============================</b>", reply_markup=InlineKeyboardMarkup(btn), reply_to_message_id=msg.id)
+    await msg.reply("<b>😻 𝗦𝗽𝗲𝗹𝗹𝗶𝗻𝗴 𝗠𝗶𝘀𝘁𝗮𝗸𝗲 𝗕𝗿𝗼\n𝗗𝗼𝗻'𝘁 𝗪𝗼𝗿𝗿𝘆 𝗖𝗵𝗼𝗼𝘀𝗲 𝗧𝗵𝗲 𝗖𝗼𝗿𝗿𝗲𝗰𝘁 𝗢𝗻𝗲 𝗕𝗲𝗹𝗼𝘄..!!============================</b>", reply_markup=InlineKeyboardMarkup(btn), reply_to_message_id=msg.id)
 
 async def advantage_spell_chok(msg):
     query = re.sub(
@@ -1613,7 +1613,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="ᴄʟᴏsᴇ ✗", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("<b>😻𝗛𝗲𝗹𝗹𝗼 {message.from_user.mention}𝗕𝗿𝗼 𝗦𝗽𝗲𝗹𝗹𝗶𝗻𝗴 𝗠𝗶𝘀𝘁𝗮𝗸𝗲\n\n𝗗𝗼𝗻'𝘁 𝗪𝗼𝗿𝗿𝘆 𝗖𝗵𝗼𝗼𝘀𝗲 𝗧𝗵𝗲 𝗖𝗼𝗿𝗿𝗲𝗰𝘁 𝗢𝗻𝗲 𝗕𝗲𝗹𝗼𝘄..!!============================</b>",
+    await msg.reply("<b>😻𝗦𝗽𝗲𝗹𝗹𝗶𝗻𝗴 𝗠𝗶𝘀𝘁𝗮𝗸𝗲 𝗕𝗿𝗼\n𝗗𝗼𝗻'𝘁 𝗪𝗼𝗿𝗿𝘆 𝗖𝗵𝗼𝗼𝘀𝗲 𝗧𝗵𝗲 𝗖𝗼𝗿𝗿𝗲𝗰𝘁 𝗢𝗻𝗲 𝗕𝗲𝗹𝗼𝘄..!!============================</b>",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 async def manual_filters(client, message, text=False):
