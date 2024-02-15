@@ -945,7 +945,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "support":
         buttons = [[
             InlineKeyboardButton('㊂ 𝗗𝗲𝘃 ❶', url='https://t.me/TG_x_filter'),
-            InlineKeyboardButton('㊂ 𝗗𝗲𝘃 ❷', url='https://t.me/dxfilter')
+            InlineKeyboardButton('㊂ 𝗗𝗲𝘃 ❷', url='https://t.me/dxtgfilter')
             ],[
             InlineKeyboardButton('« 𝗕𝗮𝗰𝗸 »', callback_data='help')
         ]]
