@@ -703,8 +703,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('𝗢𝘁𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀', url='https://t.me/Mallu_Movie_Hub_Group'),
-            InlineKeyboardButton('𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url='https://t.me/cinema_flix_updates')
+            InlineKeyboardButton('𝗢𝘁𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝘀', url='https://t.me/cinema_flix_updates'),
+            InlineKeyboardButton('𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url='https://t.me/Mallu_Movie_Hub_Group')
             ],[                    
             InlineKeyboardButton('« 𝗕𝗮𝗰𝗸 »', callback_data='about')
         ]]
