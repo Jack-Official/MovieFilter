@@ -3,7 +3,7 @@ class script(object):
 
     ABOUT_TXT = """<b>⚜️𝗡𝗮𝗺𝗲 :-: {}
 
-🔸𝗖𝗿𝗲𝗮𝘁𝗼𝗿 :-: <a href=https://t.me/dxtgfilter>🇮🇳ᴍᴀɴᴛɪs™◢ ◤</a>
+🔸𝗖𝗿𝗲𝗮𝘁𝗼𝗿 :-: <a href=https://t.me/TG_x_filter>🇮🇳ᴍᴀɴᴛɪs™◢ ◤</a>
 
 🔹𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 :-: 𝗣𝘆𝘁𝗵𝗼𝗻3
 
@@ -339,9 +339,9 @@ By @{} """
  ◉ Reply To Any Sticker [/stickerid]</b>"""
 
 
-    SUNEESH_TXT = """<b>•𝗡𝗮𝗺𝗲 :-: 𝗗𝗲𝗲𝘇𝘂𝘇𝘇𝗮
-•𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 :-: @dxtgfilter
-•𝗨𝘀𝗲𝗿 𝗟𝗶𝗻𝗸 :-:  <a href=https://t.me/dxtgfilter>𝗟𝗶𝗻𝗸</a></b>"""
+    SUNEESH_TXT = """<b>•𝗡𝗮𝗺𝗲 :-: 🇮🇳ᴍᴀɴᴛɪs™◢ ◤
+•𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 :-: @TG_x_filter
+•𝗨𝘀𝗲𝗿 𝗟𝗶𝗻𝗸 :-:  <a href=https://t.me/TG_x_filter>𝗟𝗶𝗻𝗸</a></b>"""
     SUPPORT_TXT = """<b>𝗜𝘆 𝗬𝗼𝘂 𝗙𝗮𝗰𝗶𝗻𝗴 𝗔𝗻𝘆 𝗶𝘀𝘀𝘂𝗲 𝗶𝗻 𝗧𝗵𝗲 𝗥𝗲𝗽𝗼 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗠𝗲..!!</b>"""
 
     FILTERS = """<b>ʜᴇʏ{}, ᴛʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs..!!</b>"""
