@@ -812,7 +812,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "stats":
         buttons = [[
             InlineKeyboardButton('« 𝗕𝗮𝗰𝗸', callback_data='help2'),
-            InlineKeyboardButton('ʀᴇғʀᴇsʜ ♻️', callback_data='rfrsh')
+            InlineKeyboardButton('𝗥𝗲𝗳𝗿𝗲𝘀𝗵 ♻️', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -831,7 +831,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("Fetching MongoDb DataBase")
         buttons = [[
             InlineKeyboardButton('« 𝗕𝗮𝗰𝗸', callback_data='help2'),
-            InlineKeyboardButton('ʀᴇғʀᴇsʜ ♻️', callback_data='rfrsh')
+            InlineKeyboardButton('𝗥𝗲𝗳𝗿𝗲𝘀𝗵 ♻️', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
@@ -859,8 +859,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "filters":
             btn = [[
-                    InlineKeyboardButton('Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ', callback_data="manuelfilter"),
-                    InlineKeyboardButton('Aᴜᴛᴏ Fɪʟᴛᴇʀ', callback_data="autofilter")
+                    InlineKeyboardButton('𝗠𝗮𝗻𝘂𝗮𝗹 𝗙𝗶𝗹𝘁𝗲𝗿', callback_data="manuelfilter"),
+                    InlineKeyboardButton('𝗔𝘂𝘁𝗼 𝗙𝗶𝗹𝘁𝗲𝗿', callback_data="autofilter")
                     ],[
                     InlineKeyboardButton("« 𝗕𝗮𝗰𝗸 »", callback_data="start")
                   ]]
@@ -904,7 +904,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "manuelfilter":
         buttons = [[
             InlineKeyboardButton('« 𝗕𝗮𝗰𝗸', callback_data='help2'),
-            InlineKeyboardButton('ʙᴜᴛᴛᴏɴs 🔘', callback_data='button')
+            InlineKeyboardButton('𝗕𝘂𝘁𝘁𝗼𝗻𝘀 🔘', callback_data='button')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
