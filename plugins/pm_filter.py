@@ -944,8 +944,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "support":
         buttons = [[
-            InlineKeyboardButton('㊂ ᴅᴇᴠ ❶', url='https://t.me/TG_x_filter'),
-            InlineKeyboardButton('㊂ ᴅᴇᴠ ❷', url='https://t.me/dxfilter')
+            InlineKeyboardButton('㊂ 𝗗𝗲𝘃 ❶', url='https://t.me/TG_x_filter'),
+            InlineKeyboardButton('㊂ 𝗗𝗲𝘃 ❷', url='https://t.me/dxfilter')
             ],[
             InlineKeyboardButton('« 𝗕𝗮𝗰𝗸 »', callback_data='help')
         ]]
@@ -968,7 +968,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "extra":
         buttons = [[
             InlineKeyboardButton('« 𝗕𝗮𝗰𝗸 ', callback_data='help2'),
-            InlineKeyboardButton('ᴀᴅᴍɪɴ 🤴', callback_data='admin')
+            InlineKeyboardButton('𝗔𝗱𝗺𝗶𝗻 🤴', callback_data='admin')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
