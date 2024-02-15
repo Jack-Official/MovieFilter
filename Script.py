@@ -3,7 +3,7 @@ class script(object):
 
     ABOUT_TXT = """<b>⚜️𝗡𝗮𝗺𝗲 :-: {}
 
-🔸𝗖𝗿𝗲𝗮𝘁𝗼𝗿 :-: <a href=https://t.me/dxtgfilter>𝗗𝗲𝗲𝘇𝘂𝘇𝘇𝗮</a>
+🔸𝗖𝗿𝗲𝗮𝘁𝗼𝗿 :-: <a href=https://t.me/dxtgfilter>🇮🇳ᴍᴀɴᴛɪs™◢ ◤</a>
 
 🔹𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 :-: 𝗣𝘆𝘁𝗵𝗼𝗻3
 
