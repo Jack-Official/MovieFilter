@@ -1559,7 +1559,7 @@ async def pm_spoll_choker(msg):
         return
     PM_SPELL_CHECK[msg.id] = movielist
     btn = [[InlineKeyboardButton(text=movie.strip(), callback_data=f"pmspolling#{user}#{k}")] for k, movie in enumerate(movielist)]
-    btn.append([InlineKeyboardButton(text="ᴄʟᴏsᴇ ✗", callback_data=f'pmspolling#{user}#close_spellcheck')])
+    btn.append([InlineKeyboardButton(text="✘ 𝗖𝗹𝗼𝘀𝗲 ✘", callback_data=f'pmspolling#{user}#close_spellcheck')])
     await msg.reply("<b>➧ നിങ്ങൾ ഉദ്ദേശിച്ച മൂവി താഴെ കാണുന്ന വല്ലതും ആണ് എങ്കിൽ.അതിൽ ക്ലിക്ക് ചെയ്യുക\n\n➧ 𝗜 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗙𝗶𝗻𝗱 𝗔𝗻𝘆𝘁𝗵𝗶𝗻𝗴 𝗥𝗲𝗹𝗮𝘁𝗲𝗱 𝗧𝗼 𝗧𝗵𝗮𝘁 𝗗𝗶𝗱 𝗬𝗼𝘂 𝗠𝗲𝗮𝗻 𝗔𝗻𝘆 𝗢𝗻𝗲 𝗢𝗳 𝗧𝗵𝗲𝘀𝗲?\n\n📍 𝗡𝗕 : 𝗖𝗹𝗶𝗰𝗸 𝗧𝗵𝗲 𝗠𝗼𝘃𝗶𝗲 𝗡𝗮𝗺𝗲 𝗢𝗻𝗹𝘆 𝗗𝗼𝗻'𝘁 𝗨𝘀𝗲 𝗬𝗲𝗮𝗿 𝗕𝘂𝘁𝘁𝗼𝗻</b>", reply_markup=InlineKeyboardMarkup(btn), reply_to_message_id=msg.id)
 
 async def advantage_spell_chok(msg):
@@ -1611,7 +1611,7 @@ async def advantage_spell_chok(msg):
             callback_data=f"spolling#{user}#{k}",
         )
     ] for k, movie in enumerate(movielist)]
-    btn.append([InlineKeyboardButton(text="ᴄʟᴏsᴇ ✗", callback_data=f'spolling#{user}#close_spellcheck')])
+    btn.append([InlineKeyboardButton(text="✘ 𝗖𝗹𝗼𝘀𝗲 ✘", callback_data=f'spolling#{user}#close_spellcheck')])
     await msg.reply("<b>➧ നിങ്ങൾ ഉദ്ദേശിച്ച മൂവി താഴെ കാണുന്ന വല്ലതും ആണ് എങ്കിൽ.അതിൽ ക്ലിക്ക് ചെയ്യുക\n\n➧ 𝗜 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗙𝗶𝗻𝗱 𝗔𝗻𝘆𝘁𝗵𝗶𝗻𝗴 𝗥𝗲𝗹𝗮𝘁𝗲𝗱 𝗧𝗼 𝗧𝗵𝗮𝘁 𝗗𝗶𝗱 𝗬𝗼𝘂 𝗠𝗲𝗮𝗻 𝗔𝗻𝘆 𝗢𝗻𝗲 𝗢𝗳 𝗧𝗵𝗲𝘀𝗲?\n\n📍 𝗡𝗕 : 𝗖𝗹𝗶𝗰𝗸 𝗧𝗵𝗲 𝗠𝗼𝘃𝗶𝗲 𝗡𝗮𝗺𝗲 𝗢𝗻𝗹𝘆 𝗗𝗼𝗻'𝘁 𝗨𝘀𝗲 𝗬𝗲𝗮𝗿 𝗕𝘂𝘁𝘁𝗼𝗻</b>",
                     reply_markup=InlineKeyboardMarkup(btn))
 
