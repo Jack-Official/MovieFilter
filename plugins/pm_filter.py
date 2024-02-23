@@ -667,7 +667,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )      
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('𝖢𝖺𝗋𝖻𝗈𝗇​', callback_data='carb')
+            InlineKeyboardButton('𝖢𝖺𝗋𝖻𝗈𝗇​', callback_data='carb'),
+            InlineKeyboardButton('sᴏɴɢ', callback_data='song')
             ],[
             InlineKeyboardButton('𝖳𝗍𝗌', callback_data='ttss'), 
             InlineKeyboardButton('𝖯𝖺𝗌𝗍𝖾', callback_data='pastes'),
@@ -792,9 +793,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('« 𝗕𝗮𝗰𝗸 »', callback_data='help3')
         ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
+        reply_malineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.PINGS_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+    elif query.data == "song":
+        buttons = [[
+            InlineKeyboardButton('« 𝗕𝗮𝗰𝗸 »', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SONG_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
