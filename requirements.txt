@@ -18,3 +18,4 @@ telegraph
 googletrans
 gTTS
 pyshorteners
+yt-dlp
