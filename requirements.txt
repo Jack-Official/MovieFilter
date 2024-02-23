@@ -20,3 +20,4 @@ gTTS
 pyshorteners
 yt-dlp
 wget
+youtube_search
