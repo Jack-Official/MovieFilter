@@ -21,3 +21,4 @@ pyshorteners
 yt-dlp
 wget
 youtube_search
+youtube-dl
