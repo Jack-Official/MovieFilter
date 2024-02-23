@@ -19,3 +19,4 @@ googletrans
 gTTS
 pyshorteners
 yt-dlp
+wget
