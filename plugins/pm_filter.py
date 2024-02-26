@@ -989,8 +989,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "admin":
         buttons = [[
-            InlineKeyboardButton('𝗚𝗹𝗼𝗯𝗮𝗹 𝗙𝗶𝗹𝘁𝗲𝗿𝘀', callback_data='gfill'),
-            InlineKeyboardButton('𝗨𝘀𝗲𝗿 & 𝗖𝗵𝗮𝘁', callback_data='uschat')
+            InlineKeyboardButton('ɢʟοʙαʟ ғιʟτєʀ', callback_data='gfill'),
+            InlineKeyboardButton('υѕєʀ & ϲнατ', callback_data='uschat')
             ],[
             InlineKeyboardButton('« ʙαϲκ »', callback_data='extra')
         ]]
