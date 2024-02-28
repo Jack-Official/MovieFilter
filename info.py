@@ -39,6 +39,7 @@ auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP')
 support_chat_id = environ.get('SUPPORT_CHAT_ID')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
+SUPPORT_CHAT_ID = -1001977093694
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
@@ -55,7 +56,6 @@ WELCOM_PIC = environ.get("WELCOM_PIC", "https://telegra.ph/file/376d52c7273bb645
 WELCOM_TEXT = environ.get("WELCOM_TEXT", "<b>🤍𝗛𝗲𝗹𝗹𝗼 {user} ░▒▓█\n\n𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗧𝗼💞 {chat} 💞,\n𝗪𝗲 𝗣𝗿𝗼𝘃𝗶𝗱𝗶𝗻𝗴 𝗔𝗹𝗹 𝗠𝗼𝘃𝗶𝗲𝘀 & 𝗧𝗩 𝗦𝗲𝗿𝗶𝗲𝘀.\n\n😻 𝗧𝗵𝗮𝗻𝗸𝘀 𝗙𝗼𝗿 𝗝𝗼𝗶𝗻𝗶𝗻𝗴 😻</b>")
 PMFILTER = bool(environ.get("PMFILTER", True))
 G_FILTER = bool(environ.get("G_FILTER", True))
-SUPPORT_CHAT_ID = -1001977093694
 BUTTON_LOCK = bool(environ.get("BUTTON_LOCK", True))
 
 # Others
