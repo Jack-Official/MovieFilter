@@ -54,7 +54,7 @@ WELCOM_PIC = environ.get("WELCOM_PIC", "https://telegra.ph/file/376d52c7273bb645
 WELCOM_TEXT = environ.get("WELCOM_TEXT", "<b>🤍𝗛𝗲𝗹𝗹𝗼 {user} ░▒▓█\n\n𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗧𝗼💞 {chat} 💞,\n𝗪𝗲 𝗣𝗿𝗼𝘃𝗶𝗱𝗶𝗻𝗴 𝗔𝗹𝗹 𝗠𝗼𝘃𝗶𝗲𝘀 & 𝗧𝗩 𝗦𝗲𝗿𝗶𝗲𝘀.\n\n😻 𝗧𝗵𝗮𝗻𝗸𝘀 𝗙𝗼𝗿 𝗝𝗼𝗶𝗻𝗶𝗻𝗴 😻</b>")
 PMFILTER = bool(environ.get("PMFILTER", True))
 G_FILTER = bool(environ.get("G_FILTER", True))
-SUPPORT_CHAT_ID = -1002004212841
+SUPPORT_CHAT_ID = -1001977093694
 BUTTON_LOCK = bool(environ.get("BUTTON_LOCK", True))
 
 # Others
