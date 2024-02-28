@@ -366,7 +366,7 @@ b>𝐔𝐒𝐀𝐆𝐄</b>
    
 
 
-    SUNEESH_TXT = """<b>• <b>🏅 τɢ ɴαмє : <a href=https://t.me/TG_x_filter><b>мαɴτιѕ™</b></a>
+    SUNEESH_TXT = """<b>🏅 τɢ ɴαмє : <a href=https://t.me/TG_x_filter><b>мαɴτιѕ™</b></a>
 🔮 ϲοɴταϲτ : ᴅοɴ'τ ѕнαʀє 🎗🫂
 😎 αɢє : 22 😅
 😭 ѕτατυѕ : ѕιɴɢʟє 😢</b>"""
