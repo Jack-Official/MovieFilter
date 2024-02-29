@@ -225,9 +225,10 @@ async def next_page(bot, query):
     )
     btn.insert(1,
         [
-            InlineKeyboardButton(f'Movies', 'minfo'),
-            InlineKeyboardButton(f'Info', 'info'),
-            InlineKeyboardButton(f"files: {len(btn)}", callback_data="files")
+            InlineKeyboardButton(f'ιɴғο', 'info'),
+            InlineKeyboardButton(f'мονιє', 'minfo'),
+            InlineKeyboardButton(f'τιᴘѕ', 'tinfo'),
+            InlineKeyboardButton(f"ғιʟєѕ: {len(btn)}", callback_data="files")
         ]
     )    
 
@@ -615,9 +616,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\nᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ\n⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴀᴠᴀᴛᴀʀ: ᴛʜᴇ ᴡᴀʏ ᴏғ ᴡᴀᴛᴇʀ\n\n🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)", show_alert=True)      
 
     elif query.data == "info":
-        await query.answer("⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠\n\nᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ\n\nɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ꜱᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ / sᴇʀɪᴇs ꜰɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ", show_alert=True)
+        await query.answer("⚠️ 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 ⚠️\n\nαғτєʀ 10 мιɴυτєѕ τнιѕ мєѕѕαɢє ωєʟʟ ʙє αυτοмατιϲαʟʟʏ ᴅєʟєτєᴅ\n\nιғ ʏου ᴅο ɴοτ ѕєє τнє ʀєϙυєѕτєᴅ мονιє / ѕєʀιєѕ ғιʟє, ʟοοκ ατ τнє ɴєϰτ ᴘαɢє,\n\n©️🎭𝗖𝗜𝗡𝗘𝗠𝗔 𝗙𝗟𝗜𝗫™🎭", show_alert=True)
         
-    elif query.data == "rkbtn":
+    elif query.data == "tinfo":
         await query.answer(f"🔮Hey : {query.from_user.first_name}\n\n🎬 Title : {search}\n\n📁 File : {total}\n\n💎 താഴെ കാണുന്ന ബട്ടണിൽ ക്ലിക്ക് ചെയ്താൽ ഫയൽ കിട്ടും.\n\n🎈Cilck On The Button Below to Get The File.", show_alert=True)
 
 
