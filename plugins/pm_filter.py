@@ -613,7 +613,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "pages":
         await query.answer("🤨 Curiosity is a little more, isn't it? 😁", show_alert=True)
     elif query.data == "minfo":
-        await query.answer("⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\nᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ\n⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴀᴠᴀᴛᴀʀ: ᴛʜᴇ ᴡᴀʏ ᴏғ ᴡᴀᴛᴇʀ\n\n🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)", show_alert=True)      
+        await query.answer("───────────────────────\n🍿𝐌𝐎𝐕𝐈𝐄 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐅𝐎𝐑𝐌𝐀𝐓🍿\n─────────────────\n\nɢο το ɢοοʟɢє » τʏᴘє мονιє ɴαмє » ϲοᴘʏ ϲοʀʀєϲτ ɴαмє » ᴘαѕτє τнιѕ ɢʀουᴘ\n\n🔰 єxαмᴘʟє : τнє ωαʏ οғ ωατєʀ\n\n🚯 ᴅᴏɴτ υѕє »':(!,./)", show_alert=True)      
 
     elif query.data == "info":
         await query.answer("⚠️ 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 ⚠️\n\nαғτєʀ 10 мιɴυτєѕ τнιѕ мєѕѕαɢє ωєʟʟ ʙє αυτοмατιϲαʟʟʏ ᴅєʟєτєᴅ\n\nιғ ʏου ᴅο ɴοτ ѕєє τнє ʀєϙυєѕτєᴅ мονιє / ѕєʀιєѕ ғιʟє, ʟοοκ ατ τнє ɴєϰτ ᴘαɢє,\n\n©️🎭𝗖𝗜𝗡𝗘𝗠𝗔 𝗙𝗟𝗜𝗫™🎭", show_alert=True)
