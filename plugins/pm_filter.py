@@ -220,7 +220,14 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'☟ ʏουʀ ғιʟτєʀѕ ʀєᴅʏ ɴοω ☟', 'rkbtn')
+            InlineKeyboardButton(f'🎭 {search} 🎭', 'dupe')
+        ]
+    )
+    btn.insert(1,
+        [
+            InlineKeyboardButton(f'Movies', 'minfo'),
+            InlineKeyboardButton(f'Info', 'info'),
+            InlineKeyboardButton(f"files: {len(btn)}", callback_data="files")
         ]
     )    
 
@@ -1347,9 +1354,16 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files
         ]
-    btn.insert(0,
-        [ 
-            InlineKeyboardButton(f'☟ ʏουʀ ғιʟτєʀѕ ʀєᴅʏ ɴοω ☟', 'rkbtn')
+    btn.insert(0, 
+        [
+            InlineKeyboardButton(f'🎭 {search} 🎭', 'dupe')
+        ]
+    )
+    btn.insert(1,
+        [
+            InlineKeyboardButton(f'Movies', 'minfo'),
+            InlineKeyboardButton(f'Info', 'info'),
+            InlineKeyboardButton(f"files: {len(btn)}", callback_data="files")
         ]
     )
     if offset != "":
